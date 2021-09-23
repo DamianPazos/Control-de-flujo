@@ -10,18 +10,21 @@ numeros = [1, 3, 6, 9]
 # Se declara la lista indicada
 numeros = [1, 3, 6, 9]
 
-# Se ingresa al while con un true
-while True:
-    numero_ingresado = int(input("Ingrese un numero del 1 al 9: "))
-    if 1 <= numero_ingresado <= 9 :
-        for a in numeros:
-            if a == numero_ingresado:
-                print("El numero ingresado se encuentra en la lista")
-                break
-            
-
-
-
 # Se pide al usuario el ingreso del numero
-numero = int(input("Ingrese un numero del 1 al 9: "))
+numero_ingresado = int(input("Ingrese un numero del 1 al 9: "))
+
+# Se ingresa al while con un true
+while 0 > numero_ingresado or numero_ingresado > 9:
+    print("Ingreso un numero incorrecto")
+    numero_ingresado = int(input("Ingrese un numero del 1 al 9: "))    
+else :
+    for cont,a in enumerate(numeros):
+        print(len(numeros), cont)
+        
+        if a == numero_ingresado:
+            print("El numero se encuentra en la lista")
+            break
+        if len(numeros) == cont:
+            print("El numero no se encuentra en la lista")
+            break
 
