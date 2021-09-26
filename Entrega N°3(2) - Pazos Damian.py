@@ -14,3 +14,6 @@ while True: # Se coloca el true para que ingrese directamente
     else : # Si se verifico que el numero es par
         print("Ingreso un numero par") # Se avisa que el numero ingresado es par
         break # Se utiliza para que no genere un bucle infinito
+
+# Pauso el programa antes de salir
+input("Ingrese la tecla enter para salir")
