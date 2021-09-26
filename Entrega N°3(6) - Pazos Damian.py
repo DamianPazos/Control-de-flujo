@@ -27,3 +27,6 @@ print(lista_4) # Muestro la cuarta lista
 # Genero la quinta lista
 lista_5 = list(range(0,51,5))
 print(lista_5) # Muestro la quinta lista
+
+# Pauso el programa antes de salir
+input("Ingrese la tecla enter para salir")
