@@ -14,4 +14,11 @@ lista_2 = ["h",'o','l','a',' ', 'l','u','n','a']
 # Declaro la tercer lista donde iran todos los elementos repetidos
 lista_3 = []
 
+#
+for a in lista_1:
+    if a in lista_2:
+        if a not in lista_3:
+            lista_3.append(a)
+
+print(lista_3)
 # 
