@@ -29,6 +29,9 @@ if cant_numeros > 0:
 else : 
     print("Ingreso un valor correcto") # Se imprime por si se aplico un numero incorrecto
 
+# Pauso el programa antes de salir
+input("Ingrese la tecla enter para salir")
+
 
     
 
