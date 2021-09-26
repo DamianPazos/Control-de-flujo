@@ -9,3 +9,6 @@ suma = 0
 # Utilizo sum y list para que se genere una lista y se sume automaticamente
 suma = sum(list(range(1,101,2)))
 print(suma) # Imprimo el resultado
+
+# Pauso el programa antes de salir
+input("Ingrese la tecla enter para salir")
