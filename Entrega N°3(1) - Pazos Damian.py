@@ -31,3 +31,6 @@ while numero_opcion>=1 and numero_opcion<=4: # Genero una condicion para selecci
         break # Salgo de la sentencia while
 else: # Generado para cualquier respuesta incorrecta
     print("Eligio una opcion incorrecta") # Se imprime que se eligio una opcion erronea
+
+# Pauso el programa antes de salir
+input("Ingrese la tecla enter para salir")
