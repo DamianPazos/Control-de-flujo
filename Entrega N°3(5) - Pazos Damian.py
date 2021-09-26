@@ -28,3 +28,6 @@ else :
         if (len(numeros)-1) == cont: # Si el contador se iguala a la cantidad de numeros de la lista quiere decir que no entro al if anterior por lo que ningun numero esta en la lista
             print("El numero no se encuentra en la lista") # Se devuelve que el numero no esta en la lista
             break # Se utiliza para salir del for
+
+# Pauso el programa antes de salir
+input("Ingrese la tecla enter para salir")
