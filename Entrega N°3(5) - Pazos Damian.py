@@ -11,7 +11,7 @@ numeros = [1, 3, 6, 9]
 numeros = [1, 3, 6, 9]
 
 # Se pide al usuario el ingreso del numero
-numero_ingresado = int(input("Ingrese un numero del 1 al 9: "))
+numero_ingresado = int(input("Ingrese un numero del 0 al 9: "))
 
 # Se ingresa al while con la condicion necesaria para que se repita el procedimiento
 # Se se ingreso un numero incorrecto entra al while
