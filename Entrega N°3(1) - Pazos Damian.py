@@ -16,7 +16,7 @@ numero_2 = float(input("Ingrese el segundo numero: "))
 print("Ingrese el numero de la opcion que corresponda \n 1. La suma de los dos numeros \n 2. La resta de los dos numeros \n 3. La multiplicacion de los dos numeros \n 4. Salir del menu")
 numero_opcion = int(input("Nro de menu: "))
 # Se inicia el menu con una sentencia while
-while numero_opcion>=1 and numero_opcion<=4: # Genero una condicion para seleccionar las opciones correctas del menu
+while True: # Genero una condicion para seleccionar las opciones correctas del menu
     if numero_opcion == 1: # Primera opcion del menu
         print("La suma de los numeros es", numero_1+numero_2) # Se imprime la suma
         numero_opcion = int(input("Nro de menu: ")) # Se vuelve a pedir el numero del menu
@@ -29,8 +29,9 @@ while numero_opcion>=1 and numero_opcion<=4: # Genero una condicion para selecci
     elif numero_opcion == 4: # Cuarta opcion del menu
         print("Usted eligio salir del menu") # Se imprime un mensaje que avisa que salio del menu
         break # Salgo de la sentencia while
-else: # Generado para cualquier respuesta incorrecta
-    print("Eligio una opcion incorrecta") # Se imprime que se eligio una opcion erronea
+    else:
+        print("Eligio una opcion incorrecta") # Se imprime que se eligio una opcion erronea
+        numero_opcion = int(input("Nro de menu: ")) # Se vuelve a pedir el numero del menu
 
 # Pauso el programa antes de salir
 input("Ingrese la tecla enter para salir")
